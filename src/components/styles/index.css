@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  padding: 5%;
+}
+
+.receipe-item {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin:10px;
+  padding: 5px;
+}
+.receipe-text {
+  display: inline-block;
+  text-align: left;
+  padding-right: 10px;
+  width: 400px;
+}
+.receipe-img{
+  display: inline-block;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 1px solid black;
+  border-radius: 2px;
+}
